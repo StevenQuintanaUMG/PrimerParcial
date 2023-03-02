@@ -49,7 +49,7 @@ for (uint i = 1; i <= 10; i++)
 }
 
 //7. Imprimir la secuencia de numeros enteros positivos que comienzan en N y se incrementa en 2 hasta 20
-if(N < 20)
+if(N <= 20)
 {
     Console.WriteLine("\nSecuencia de numeros enteros positivos desde N incrementandose en 2 hasta que sea mayor que 20");
     for (uint i = N; i <= 20; i += 2)
@@ -61,7 +61,6 @@ else
 {
     Console.WriteLine("\n-------El numero es mayor o igual que 20 por lo que no se imprimira la secuencia-------");
 }
-
 
 //8. Imprimir la variable suma
 Console.WriteLine("\n\nLa suma de los primeros N numeros enteros positivos es: " + suma);
